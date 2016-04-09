@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_main">
+
+    <!-- mask -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/exercise_mask" />
+
+
+    <!-- Header -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/layout_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/common_padding_15">
+
+            <ImageView
+                android:layout_width="@dimen/common_padding_15"
+                android:layout_height="@dimen/common_padding_15"
+                android:scaleType="centerInside"
+                android:src="@mipmap/icon_close" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/common_padding_15"
+            android:text="@string/exercise_record"
+            android:textColor="@color/white_alpha_50"
+            android:textSize="@dimen/text_size_12" />
+
+    </LinearLayout>
+
+    <!-- Body -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="60dp">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="開始平甩"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_14" />
+
+        <TextView
+            android:id="@+id/tv_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/common_padding_10"
+            android:text="已經連續28天平甩"
+            android:textColor="@color/white_alpha_50"
+            android:textSize="@dimen/text_size_10" />
+
+
+        <org.meimen.meimen.ui.LineChartView
+            android:id="@+id/lcv_record"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/common_padding_15"
+            android:layout_marginRight="@dimen/common_padding_15"
+            android:layout_marginTop="@dimen/common_padding_15"
+            android:background="@android:color/transparent" />
+
+
+        <TextView
+            android:id="@+id/tv_thirty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_padding_17"
+            android:background="@color/pink"
+            android:paddingBottom="@dimen/common_padding_5"
+            android:paddingLeft="33dp"
+            android:paddingRight="33dp"
+            android:paddingTop="@dimen/common_padding_5"
+            android:text="30mins"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_12" />
+
+        <TextView
+            android:id="@+id/tv_twenty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/common_padding_5"
+            android:layout_marginTop="@dimen/common_padding_5"
+            android:background="@color/pink"
+            android:paddingBottom="@dimen/common_padding_5"
+            android:paddingLeft="27dp"
+            android:paddingRight="27dp"
+            android:paddingTop="@dimen/common_padding_5"
+            android:text="20mins"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_12" />
+
+        <TextView
+            android:id="@+id/tv_ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/pink"
+            android:paddingBottom="@dimen/common_padding_5"
+            android:paddingLeft="@dimen/common_padding_17"
+            android:paddingRight="@dimen/common_padding_17"
+            android:paddingTop="@dimen/common_padding_5"
+            android:text="10mins"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_12" />
+
+        <FrameLayout
+            android:id="@+id/layout_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/common_padding_30">
+
+            <View
+                android:layout_width="@dimen/exercise_large_circle_width"
+                android:layout_height="@dimen/exercise_large_circle_width"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_dark_grey" />
+
+            <View
+                android:layout_width="@dimen/exercise_middle_circle_width"
+                android:layout_height="@dimen/exercise_middle_circle_width"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_grey" />
+
+            <FrameLayout
+                android:id="@+id/layout_click_to_invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <View
+                    android:layout_width="@dimen/exercise_small_circle_width"
+                    android:layout_height="@dimen/exercise_small_circle_width"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_light_grey" />
+
+                <TextView
+                    android:id="@+id/tv_red_btn"
+                    android:layout_width="@dimen/exercise_add_width"
+                    android:layout_height="@dimen/exercise_add_width"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_pink"
+                    android:contentDescription="@null"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/common_padding_15" />
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/tv_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_48"
+                android:visibility="visible" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+    <!-- Footer -->
+    <Button
+        android:id="@+id/btn_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/common_padding_15"
+        android:background="@color/powder_blue"
+        android:gravity="center"
+        android:padding="@dimen/common_padding_13"
+        android:text="@string/stop_exercise"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_10"
+        android:visibility="gone" />
+
+</RelativeLayout>

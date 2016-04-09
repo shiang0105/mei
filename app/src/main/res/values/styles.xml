@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <item name="colorPrimary">@android:color/transparent</item>
+        <!--Status bar color-->
+        <item name="colorPrimaryDark">@color/black</item>
+        <!--Window color-->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+</resources>

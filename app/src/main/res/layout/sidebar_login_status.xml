@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_padding_17">
+
+        <org.meimen.meimen.ui.CircledImageView
+            android:id="@+id/civ_profile"
+            android:layout_width="@dimen/sidebar_profile_height"
+            android:layout_height="@dimen/sidebar_profile_height"
+            android:layout_gravity="center_vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/common_padding_13">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/common_padding_7"
+                android:text="name"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id="@+id/tv_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mail"
+                android:textSize="@dimen/text_size_9" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/layout_nonlogin"
+        layout="@layout/sidebar_item" />
+</FrameLayout>

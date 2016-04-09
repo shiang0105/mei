@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_main">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_subtitle"
+        android:layout_centerHorizontal="true"
+        android:text="Good Morning"
+        android:textColor="@color/text_dark"
+        android:textSize="@dimen/text_size_20" />
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/v_btn"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/common_padding_15"
+        android:text="堅持正行，迎接正果"
+        android:textColor="@color/text_dark"
+        android:textSize="@dimen/text_size_16" />
+
+    <View
+        android:id="@+id/v_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle_powder_blue"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_40" />
+
+    <TextView
+        android:id="@+id/tv_weekday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_day"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_7" />
+
+</RelativeLayout>

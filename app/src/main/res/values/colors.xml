@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_alpha_50">#80FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="yellow">#FFAA33</color>
+    <color name="powder_blue">#50D2C2</color>
+    <color name="pink">#FF3366</color>
+
+
+    <color name="exercise_mask">#CC351F0C</color>
+
+
+    <color name="light_grey">#33E3E3E3</color>
+    <color name="grey">#339F9F9F</color>
+    <color name="dark_grey">#333F3F3F</color>
+
+    <color name="text_dark">#1D1D26</color>
+
+
+    <color name="background">#E3E3E3</color>
+</resources>

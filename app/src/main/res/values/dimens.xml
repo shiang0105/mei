@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- side bar -->
+    <dimen name="sidebar_width">240dp</dimen>
+    <dimen name="sidebar_item_icon_height">17dp</dimen>
+    <dimen name="sidebar_item_padding">17dp</dimen>
+    <dimen name="sidebar_logo_width">101dp</dimen>
+    <dimen name="sidebar_logo_height">44dp</dimen>
+    <dimen name="sidebar_logo_padding">27dp</dimen>
+    <dimen name="sidebar_profile_height">34dp</dimen>
+
+    <!-- exercise -->
+    <dimen name="exercise_large_circle_width">136dp</dimen>
+    <dimen name="exercise_middle_circle_width">103dp</dimen>
+    <dimen name="exercise_small_circle_width">70dp</dimen>
+    <dimen name="exercise_add_width">36dp</dimen>
+
+    <dimen name="toolbar_height">70dp</dimen>
+
+
+    <dimen name="toast_padding_bottom">100dp</dimen>
+
+
+    <dimen name="common_padding_50">50dp</dimen>
+    <dimen name="common_padding_40">40dp</dimen>
+    <dimen name="common_padding_30">30dp</dimen>
+    <dimen name="common_padding_136">136dp</dimen>
+    <dimen name="common_padding_17">17dp</dimen>
+    <dimen name="common_padding_15">15dp</dimen>
+    <dimen name="common_padding_13">13dp</dimen>
+    <dimen name="common_padding_10">10dp</dimen>
+    <dimen name="common_padding_7">7dp</dimen>
+    <dimen name="common_padding_5">5dp</dimen>
+
+    <dimen name="text_size_48">48sp</dimen>
+    <dimen name="text_size_40">40sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_9">9sp</dimen>
+    <dimen name="text_size_8">8sp</dimen>
+    <dimen name="text_size_7">7sp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

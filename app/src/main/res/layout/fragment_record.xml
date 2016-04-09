@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_main">
+
+
+    <!-- mask -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/exercise_mask" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/common_padding_50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vp_calendar"
+        android:layout_marginTop="@dimen/common_padding_40"
+        android:text="@string/days_to_one_hundred_millstone"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/layout_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/common_padding_15">
+
+            <ImageView
+                android:layout_width="@dimen/common_padding_15"
+                android:layout_height="@dimen/common_padding_15"
+                android:scaleType="centerInside"
+                android:src="@mipmap/icon_close" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/common_padding_15"
+            android:text="甩手"
+            android:textColor="@color/white_alpha_50"
+            android:textSize="@dimen/text_size_12" />
+
+    </LinearLayout>
+
+</RelativeLayout>
