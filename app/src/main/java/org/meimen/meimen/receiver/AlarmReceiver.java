@@ -12,7 +12,7 @@ import android.content.pm.PackageManager;
 import android.os.PowerManager;
 import android.support.v4.content.WakefulBroadcastReceiver;
 
-import org.meimen.meimen.activity.MainActivity;
+import org.meimen.meimen.ui.activity.MainActivity;
 import org.meimen.meimen.utils.ViewUtils;
 
 /**

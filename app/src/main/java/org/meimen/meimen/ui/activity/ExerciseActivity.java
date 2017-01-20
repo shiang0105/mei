@@ -1,9 +1,9 @@
 
-package org.meimen.meimen.activity;
+package org.meimen.meimen.ui.activity;
 
 import org.meimen.meimen.R;
-import org.meimen.meimen.fragments.BaseFragment;
-import org.meimen.meimen.fragments.ExerciseFragment;
+import org.meimen.meimen.ui.fragments.BaseFragment;
+import org.meimen.meimen.ui.fragments.ExerciseFragment;
 
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;

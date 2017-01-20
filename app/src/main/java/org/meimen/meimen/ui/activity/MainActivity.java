@@ -1,13 +1,13 @@
 
-package org.meimen.meimen.activity;
+package org.meimen.meimen.ui.activity;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.meimen.meimen.R;
 import org.meimen.meimen.database.DatabaseHelper;
-import org.meimen.meimen.fragments.BaseFragment;
-import org.meimen.meimen.fragments.RecordFragment;
-import org.meimen.meimen.fragments.WelcomeFragment;
+import org.meimen.meimen.ui.fragments.BaseFragment;
+import org.meimen.meimen.ui.fragments.RecordFragment;
+import org.meimen.meimen.ui.fragments.WelcomeFragment;
 import org.meimen.meimen.manager.AccountManager;
 import org.meimen.meimen.manager.SidebarManager;
 import org.meimen.meimen.model.UserInfo;
@@ -18,7 +18,6 @@ import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -26,6 +25,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+
+import butterknife.Bind;
+import butterknife.ButterKnife;
 
 import com.facebook.AccessToken;
 import com.facebook.GraphRequest;
@@ -35,8 +37,10 @@ public class MainActivity extends AppCompatActivity {
 
     public static final int LOGIN_CODE = 1;
 
+    @Bind(R.id.tb_main)
     private Toolbar mToolbar;
 
+    @Bind(R.id.drawer_layout)
     private DrawerLayout mDrawerLayout;
 
     private SidebarManager.SidebarConfig mSidebarConfig;
@@ -45,8 +49,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mToolbar = (Toolbar) findViewById(R.id.tb_main);
-        mDrawerLayout = ViewUtils.findViewById(this, R.id.drawer_layout);
+        ButterKnife.bind(this);
 
         initToolbar();
         initSidebar();

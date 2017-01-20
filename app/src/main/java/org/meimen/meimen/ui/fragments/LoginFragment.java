@@ -1,8 +1,8 @@
 
-package org.meimen.meimen.fragments;
+package org.meimen.meimen.ui.fragments;
 
 import org.meimen.meimen.R;
-import org.meimen.meimen.activity.MainActivity;
+import org.meimen.meimen.ui.activity.MainActivity;
 import org.meimen.meimen.utils.ViewUtils;
 
 import rx.Subscription;

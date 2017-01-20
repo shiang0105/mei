@@ -1,5 +1,5 @@
 
-package org.meimen.meimen.ui;
+package org.meimen.meimen.ui.view;
 
 import org.meimen.meimen.R;
 

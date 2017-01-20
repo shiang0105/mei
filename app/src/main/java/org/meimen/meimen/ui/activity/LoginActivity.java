@@ -1,5 +1,5 @@
 
-package org.meimen.meimen.activity;
+package org.meimen.meimen.ui.activity;
 
 import java.util.Arrays;
 

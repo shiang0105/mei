@@ -10,7 +10,7 @@
         android:orientation="horizontal"
         android:padding="@dimen/common_padding_17">
 
-        <org.meimen.meimen.ui.CircledImageView
+        <org.meimen.meimen.ui.view.CircledImageView
             android:id="@+id/civ_profile"
             android:layout_width="@dimen/sidebar_profile_height"
             android:layout_height="@dimen/sidebar_profile_height"

@@ -1,5 +1,5 @@
 
-package org.meimen.meimen.fragments;
+package org.meimen.meimen.ui.fragments;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -7,9 +7,9 @@ import java.util.GregorianCalendar;
 import java.util.List;
 
 import org.meimen.meimen.R;
-import org.meimen.meimen.activity.ExerciseActivity;
+import org.meimen.meimen.ui.activity.ExerciseActivity;
 import org.meimen.meimen.database.DatabaseHelper;
-import org.meimen.meimen.ui.MeiMenCalendarView;
+import org.meimen.meimen.ui.view.MeiMenCalendarView;
 import org.meimen.meimen.utils.CalendarUtils;
 import org.meimen.meimen.utils.ViewUtils;
 

@@ -1,9 +1,9 @@
 
-package org.meimen.meimen.fragments;
+package org.meimen.meimen.ui.fragments;
 
 import org.meimen.meimen.R;
-import org.meimen.meimen.activity.ExerciseActivity;
-import org.meimen.meimen.ui.LineChartView;
+import org.meimen.meimen.ui.activity.ExerciseActivity;
+import org.meimen.meimen.ui.view.LineChartView;
 import org.meimen.meimen.utils.ViewUtils;
 
 import rx.Observable;

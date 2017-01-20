@@ -1,5 +1,5 @@
 
-package org.meimen.meimen.ui;
+package org.meimen.meimen.ui.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;

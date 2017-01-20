@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import org.meimen.meimen.R;
 import org.meimen.meimen.model.SidebarItem;
 import org.meimen.meimen.model.UserInfo;
-import org.meimen.meimen.ui.CircledImageView;
+import org.meimen.meimen.ui.view.CircledImageView;
 import org.meimen.meimen.utils.ViewUtils;
 
 import android.content.res.Resources;

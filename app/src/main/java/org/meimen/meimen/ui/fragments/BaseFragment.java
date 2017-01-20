@@ -1,5 +1,5 @@
 
-package org.meimen.meimen.fragments;
+package org.meimen.meimen.ui.fragments;
 
 import android.app.Fragment;
 import android.os.Bundle;

@@ -10,7 +10,7 @@ import java.net.URL;
 
 import org.meimen.meimen.MeiMenApplication;
 import org.meimen.meimen.R;
-import org.meimen.meimen.activity.MainActivity;
+import org.meimen.meimen.ui.activity.MainActivity;
 
 import android.app.IntentService;
 import android.app.Notification;

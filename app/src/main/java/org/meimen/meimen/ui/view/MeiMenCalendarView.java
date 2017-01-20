@@ -1,5 +1,5 @@
 
-package org.meimen.meimen.ui;
+package org.meimen.meimen.ui.view;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;

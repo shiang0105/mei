@@ -1,10 +1,10 @@
 
-package org.meimen.meimen.fragments;
+package org.meimen.meimen.ui.fragments;
 
 import java.util.Calendar;
 
 import org.meimen.meimen.R;
-import org.meimen.meimen.activity.ExerciseActivity;
+import org.meimen.meimen.ui.activity.ExerciseActivity;
 import org.meimen.meimen.receiver.AlarmReceiver;
 import org.meimen.meimen.utils.ViewUtils;
 
